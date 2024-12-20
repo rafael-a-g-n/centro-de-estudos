@@ -1,0 +1,81 @@
+.offers-subtitle {
+  margin-bottom: 5rem;
+}
+.offers-subtitle h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #313bac;
+}
+
+.offers__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.card.offer {
+  padding: 1rem;
+}
+
+.offer-image {
+  border-radius: 0 2rem;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+  transition: all 500ms ease-in-out;
+}
+
+.offer:hover .offer-image {
+  box-shadow: none;
+}
+
+.offer h4 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.offer .offer-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.offer .offer-feature {
+  margin-top: 1rem;
+}
+
+/* Queries (ecrãs médios)*/
+
+@media (max-width: 1024px) {
+  .offers__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .offers-subtitle h3 {
+    font-size: 2.5rem;
+  }
+
+  .offer h4 {
+    font-size: 1.6rem;
+  }
+
+  .offer .offer-desc {
+    font-size: 1.4rem;
+  }
+}
+
+/* Queries (ecrãs pequenos)*/
+
+@media (max-width: 600px) {
+  .offers__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .offers-subtitle {
+    margin-bottom: 2.5rem;
+  }
+}

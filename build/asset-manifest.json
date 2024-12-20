@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/centro-de-estudos/static/css/main.c0cf8343.css",
+    "main.js": "/centro-de-estudos/static/js/main.fe9f3f3e.js",
+    "static/js/787.b803718f.chunk.js": "/centro-de-estudos/static/js/787.b803718f.chunk.js",
+    "index.html": "/centro-de-estudos/index.html",
+    "main.c0cf8343.css.map": "/centro-de-estudos/static/css/main.c0cf8343.css.map",
+    "main.fe9f3f3e.js.map": "/centro-de-estudos/static/js/main.fe9f3f3e.js.map",
+    "787.b803718f.chunk.js.map": "/centro-de-estudos/static/js/787.b803718f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0cf8343.css",
+    "static/js/main.fe9f3f3e.js"
+  ]
+}
