@@ -8,7 +8,6 @@ import Team from "./pages/team/Team";
 import Partnerships from "./pages/partnerships/Partnerships";
 import Form from "./pages/form/Form";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import "./App.css";
 
 function App() {
   return (

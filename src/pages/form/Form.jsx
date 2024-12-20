@@ -2,8 +2,6 @@ import { useState } from "react";
 import Card from "../../components/Cards/Card";
 import Header from "../../components/Header";
 
-import "./form.css";
-
 const Form = () => {
   const [formData, setFormData] = useState({
     name: "",

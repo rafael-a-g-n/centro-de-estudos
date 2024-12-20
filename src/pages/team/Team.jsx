@@ -5,8 +5,6 @@ import { BsInstagram } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
-import "./team.css";
-
 const Team = () => {
   const [teachers, setTeachers] = useState([]);
 

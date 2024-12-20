@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { GoThreeBars } from "react-icons/go";
 import { MdClose } from "react-icons/md";
-import "./navbar.css";
 import Head from "./Head";
 
 const NavBar = () => {

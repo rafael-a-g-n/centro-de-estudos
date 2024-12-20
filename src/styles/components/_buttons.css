@@ -1,0 +1,20 @@
+.btn {
+  width: fit-content;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background-color: #313bac;
+  border-radius: 1.5rem;
+  transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #f9f6ee;
+  color: #313bac;
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}

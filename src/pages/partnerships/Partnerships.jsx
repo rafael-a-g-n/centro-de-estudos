@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../../components/Header";
 import Partner from "../../components/Partners/Partner";
-import "./partnerships.css";
 
 const Partnerships = () => {
   const [partners, setPartners] = useState([]);

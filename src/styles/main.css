@@ -1,0 +1,23 @@
+/* Base styles */
+@import "./base/_reset.css";
+@import "./base/_base.css";
+@import "./base/_variables.css";
+
+/* Component styles */
+@import "./components/_head.css";
+@import "./components/_buttons.css";
+@import "./components/_header.css";
+@import "./components/_navbar.css";
+@import "./components/_section.css";
+@import "./components/_footer.css";
+@import "./components/_cards.css";
+@import "./components/_testimonials.css";
+@import "./components/_forms.css";
+
+/* Page styles */
+@import "./pages/_home.css";
+@import "./pages/_about.css";
+@import "./pages/_offers.css";
+@import "./pages/_team.css";
+@import "./pages/_partnerships.css";
+@import "./pages/_form.css";

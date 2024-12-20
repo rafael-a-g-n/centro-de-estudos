@@ -1,0 +1,43 @@
+.card {
+  background-color: #7192ba;
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem 0 3rem;
+  box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+  transition: all 500ms ease-in-out;
+}
+
+.card:hover {
+  background: rgba(20, 0, 0, 0.1);
+  border-color: #f9f6ee;
+  cursor: default;
+  box-shadow: none;
+}
+
+.card span {
+  background-color: #313bac;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: all 500ms ease-in-out;
+}
+
+.card:hover span {
+  background-color: #f9f6ee;
+  color: #313bac;
+}
+
+.card p {
+  margin-top: 1rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #e5e4e2;
+}

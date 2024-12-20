@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --primary-color: #313bac;
+  --secondary-color: #7192ba;
+  --text-color: #f9f6ee;
+  --accent-color: #ffbf00;
+  --dark-bg: #36454f;
+  --error-color: #990202;
+  --success-color: #5cb85c;
+
+  /* Fonts */
+  --font-family: "Montserrat", sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 5rem;
+
+  /* Borders */
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 2rem;
+
+  /* Shadows */
+  --shadow-normal: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+
+  /* Transitions */
+  --transition-normal: all 500ms ease-in-out;
+
+  /* Layout */
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+}

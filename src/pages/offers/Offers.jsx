@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import Header from "../../components/Header";
 import Card from "../../components/Cards/Card";
 
-import "./offers.css";
-
 const Offers = () => {
   const [offers, setOffers] = useState([]);
 
